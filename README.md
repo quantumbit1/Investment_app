@@ -44,3 +44,10 @@ mf_portfolio_tracker/
 │
 ├── requirements.txt
 └── README.md
+```
+
+# New Features to be added 
+1) Record multiple transactions at a time for any one mutual fund
+2) Search mechanism for finding the mutual funds and then recording the transactions
+3) Display the list of mutual funds invested and the total return
+4) Create a HTML file to show all the transaction results
