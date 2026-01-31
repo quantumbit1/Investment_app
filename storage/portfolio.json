@@ -1,0 +1,24 @@
+{
+    "SBI Gold Direct Plan - Growth": {
+        "scheme_code": "119789",
+        "transactions": [
+            {
+                "date": "12-01-2026",
+                "amount": 100000.0,
+                "nav": 43.19,
+                "units": 2315.35077564251
+            }
+        ]
+    },
+    "HDFC Silver ETF FoF Direct - Growth": {
+        "scheme_code": "150737",
+        "transactions": [
+            {
+                "date": "20-01-2026",
+                "amount": 150000.0,
+                "nav": 52.22,
+                "units": 2872.462657985446
+            }
+        ]
+    }
+}

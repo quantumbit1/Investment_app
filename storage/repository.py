@@ -28,8 +28,8 @@ class PortfolioRepository:
         data = {}
         for fund in portfolio.values():
             data[fund.name] = {
-                "scheme_code": fund.scheme_code,,
-                "transactions" : [vars(t) for t in fund.Transactions]
+                "scheme_code": fund.scheme_code,
+                "transactions" : [vars(t) for t in fund.transactions]
             }
 
         with open(file_path,'w') as f:

@@ -9,7 +9,7 @@ class NAVFetcher:
     @staticmethod
     def get_latest_nav(scheme_code):
         response = requests.get(AMFI_URL)
-        for line in reponse.text.splitlines():
+        for line in response.text.splitlines():
             if line.startswith(scheme_code + ";"):
                 parts = line.split(";")
                 nav = float(parts[4])

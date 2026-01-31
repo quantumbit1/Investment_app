@@ -6,7 +6,7 @@ class MutualFund:
         self.scheme_code = scheme_code
         self.transactions = []
 
-    def add_transactions(self,transaction):
+    def add_transaction(self,transaction):
         self.transactions.append(transaction)
 
     #@property is used to define a method as a attribute so that we don't need to call it 
