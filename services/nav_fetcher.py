@@ -1,0 +1,1 @@
+# Used to fetch the Mutual Fund Data from AMFI 
